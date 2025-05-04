@@ -24,7 +24,7 @@
 
 - Python 3.10 или новее
 - Google Chrome
-- ChromeDriver соответствующей версии (скачать можно отсюда: https://googlechromelabs.github.io/chrome-for-testing/)
+- ChromeDriver соответствующей версии 
 - Установленные зависимости из `requirements.txt`
 
 ---
@@ -34,8 +34,8 @@
 1. Склонируйте репозиторий:
 
 
-git clone https://github.com/sergoromanov/QAtest.git
-cd QAtest
+git clone https://github.com/sergoromanov/QATest.git
+cd QATest
 
 
 2. Установите зависимости:
@@ -83,4 +83,4 @@ python process_numbers.py
 
 ##  Ссылка на репозиторий
 
-https://github.com/sergoromanov/QAtest.git
+https://github.com/sergoromanov/QATest.git
