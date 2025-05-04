@@ -11,10 +11,8 @@ try:
 
     assert "Example" in driver.title, "Заголовок не содержит 'Example'"
 
-    link = driver.find_element(By.LINK_TEXT, "More information...")  # Важно: 3 точки!
+    link = driver.find_element(By.LINK_TEXT, "More information...")
     link.click()
-
-    # Подождём и переключимся на новую вкладку, если открылась
     time.sleep(2)
     if len(driver.window_handles) > 1:
         driver.switch_to.window(driver.window_handles[-1])
